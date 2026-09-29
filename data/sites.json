@@ -1,19 +1,32 @@
 {
   "schemaVersion": 1,
-  "lastVerified": "2026-09-26",
+  "lastVerified": "2026-09-30",
   "sites": [
     {
       "id": "beeapi",
       "name": "BeeAPI",
       "homepage": "https://beeapi.ai/",
       "registrationUrl": "https://beeapi.ai/signup?aff=75OPR7DQRJCG",
-      "tags": ["api-gateway", "gpt", "claude", "gemini", "grok", "api-relay"],
+      "tags": [
+        "api-gateway",
+        "gpt",
+        "claude",
+        "gemini",
+        "grok",
+        "api-relay"
+      ],
       "summary": "中转站的中转站：聚合多家 AI API 商家，提供模型价格对比与渠道选择。官网公开介绍提及 OpenAI、Anthropic、Gemini，也可选择官方直连，并提供统一余额计费与自动故障切换。用户补充 Grok 0.014x，但截至 2026-09-26 公开页面未列出 Grok 型号或该价格，待独立核验；注册及调用能力也未实测。注册链接含 aff 推广参数。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-09-26",
       "sources": [
-        {"type": "official-website", "url": "https://beeapi.ai/"},
-        {"type": "user-submitted", "url": "https://beeapi.ai/signup"}
+        {
+          "type": "official-website",
+          "url": "https://beeapi.ai/"
+        },
+        {
+          "type": "user-submitted",
+          "url": "https://beeapi.ai/signup"
+        }
       ]
     },
     {
@@ -21,17 +34,39 @@
       "name": "ModelRush",
       "homepage": "https://modelrush.ai/",
       "registrationUrl": "https://modelrush.ai/sign-up",
-      "tags": ["api-gateway", "gpt", "image-workbench"],
+      "tags": [
+        "api-gateway",
+        "gpt",
+        "image-workbench"
+      ],
       "summary": "付费多模态 API 平台，提供文本、图片、视频和语音模型；OpenAI 兼容 API 地址为 https://api.modelrush.ai/v1，公开目录列出 Chat Completions、图片、视频和音频接口。模型调用按实际用量从预付额度扣费；Agent Basic 订阅为 US$10/月，当前页面列出需绑卡的 30 天试用，Agent 费用不含模型 API 用量。部分 Spicy 模型要求账号成人访问确认。价格页更新于 2026-09-23；模型与价格请以官网实时信息为准。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-25",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/8"},
-        {"type": "official-website", "url": "https://modelrush.ai/"},
-        {"type": "official-registration", "url": "https://modelrush.ai/sign-up"},
-        {"type": "official-model-catalog", "url": "https://modelrush.ai/models"},
-        {"type": "official-pricing", "url": "https://modelrush.ai/pricing"},
-        {"type": "official-docs", "url": "https://modelrush.ai/docs"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/8"
+        },
+        {
+          "type": "official-website",
+          "url": "https://modelrush.ai/"
+        },
+        {
+          "type": "official-registration",
+          "url": "https://modelrush.ai/sign-up"
+        },
+        {
+          "type": "official-model-catalog",
+          "url": "https://modelrush.ai/models"
+        },
+        {
+          "type": "official-pricing",
+          "url": "https://modelrush.ai/pricing"
+        },
+        {
+          "type": "official-docs",
+          "url": "https://modelrush.ai/docs"
+        }
       ]
     },
     {
@@ -39,17 +74,43 @@
       "name": "TokenWorks",
       "homepage": "https://www.token8341.com/",
       "registrationUrl": "https://api.token8341.com/sign-up",
-      "tags": ["api-gateway", "gpt", "claude", "gemini", "deepseek", "domestic-model", "image-workbench"],
+      "tags": [
+        "api-gateway",
+        "gpt",
+        "claude",
+        "gemini",
+        "deepseek",
+        "domestic-model",
+        "image-workbench"
+      ],
       "summary": "付费多模型 API 网关。2026-09-26 可访问的官方文档说明兼容 OpenAI Chat Completions、基础地址为 https://www.token8341.com/v1，新用户可获免费体验额度且无需绑卡，未公布额度金额。官方价格目录展示 20 家厂商模型及官方价/本站按量价对比，包含 GPT、Claude、Gemini、DeepSeek、图片、视频、语音、嵌入和重排模型。价格按模型及用量区分，使用前查看实时价目表。运营主体信息来自官网自述，未作独立工商核验。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-26",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/13"},
-        {"type": "official-website", "url": "https://www.token8341.com/"},
-        {"type": "official-registration", "url": "https://api.token8341.com/sign-up"},
-        {"type": "official-pricing", "url": "https://www.token8341.com/zh/pricing"},
-        {"type": "official-docs", "url": "https://www.token8341.com/zh/docs"},
-        {"type": "official-about", "url": "https://www.token8341.com/zh/about"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/13"
+        },
+        {
+          "type": "official-website",
+          "url": "https://www.token8341.com/"
+        },
+        {
+          "type": "official-registration",
+          "url": "https://api.token8341.com/sign-up"
+        },
+        {
+          "type": "official-pricing",
+          "url": "https://www.token8341.com/zh/pricing"
+        },
+        {
+          "type": "official-docs",
+          "url": "https://www.token8341.com/zh/docs"
+        },
+        {
+          "type": "official-about",
+          "url": "https://www.token8341.com/zh/about"
+        }
       ]
     },
     {
@@ -57,16 +118,36 @@
       "name": "KaiGPT",
       "homepage": "https://gptzzz.ai/",
       "registrationUrl": "https://gptzzz.ai/register",
-      "tags": ["gpt", "claude", "low-multiplier", "api-relay"],
+      "tags": [
+        "gpt",
+        "claude",
+        "low-multiplier",
+        "api-relay"
+      ],
       "summary": "官网首页当前说明 OpenAI 与 Claude 主流模型按官方价的 10% 计费（0.1x），具体模型 ID、分组和单价以账户模型广场为准。注册页于 2026-09-26 可访问，未创建账号或发起调用。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-26",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/12"},
-        {"type": "official-website", "url": "https://gptzzz.ai/"},
-        {"type": "official-registration", "url": "https://gptzzz.ai/register"},
-        {"type": "official-model-catalog", "url": "https://gptzzz.ai/model-plaza"},
-        {"type": "official-docs", "url": "https://gptzzz.ai/docs/"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/12"
+        },
+        {
+          "type": "official-website",
+          "url": "https://gptzzz.ai/"
+        },
+        {
+          "type": "official-registration",
+          "url": "https://gptzzz.ai/register"
+        },
+        {
+          "type": "official-model-catalog",
+          "url": "https://gptzzz.ai/model-plaza"
+        },
+        {
+          "type": "official-docs",
+          "url": "https://gptzzz.ai/docs/"
+        }
       ]
     },
     {
@@ -74,16 +155,36 @@
       "name": "YonshoreAPI",
       "homepage": "https://api.yonshore.com/",
       "registrationUrl": "https://api.yonshore.com/register",
-      "tags": ["gpt", "claude", "api-gateway", "api-relay"],
+      "tags": [
+        "gpt",
+        "claude",
+        "api-gateway",
+        "api-relay"
+      ],
       "summary": "按量付费的 GPT/Claude API 中转。注册页于 2026-09-26 可访问；公开价格 API 当前返回 12 个 GPT/Claude 模型 ID、多个服务分组及按模型/上下文变化的计价表达式。计价需结合具体模型、分组和上下文核对，未折算成可横向比较的单一倍率；未注册或发起付费调用。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-26",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/10"},
-        {"type": "official-website", "url": "https://api.yonshore.com/"},
-        {"type": "official-registration", "url": "https://api.yonshore.com/register"},
-        {"type": "public-pricing-api", "url": "https://api.yonshore.com/api/pricing"},
-        {"type": "user-submitted-quickstart", "url": "https://github.com/jerrynullmmo/yonshoreapi-quickstart"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/10"
+        },
+        {
+          "type": "official-website",
+          "url": "https://api.yonshore.com/"
+        },
+        {
+          "type": "official-registration",
+          "url": "https://api.yonshore.com/register"
+        },
+        {
+          "type": "public-pricing-api",
+          "url": "https://api.yonshore.com/api/pricing"
+        },
+        {
+          "type": "user-submitted-quickstart",
+          "url": "https://github.com/jerrynullmmo/yonshoreapi-quickstart"
+        }
       ]
     },
     {
@@ -91,15 +192,35 @@
       "name": "otter Link",
       "homepage": "https://otterl.com/",
       "registrationUrl": "https://otterl.com/",
-      "tags": ["gpt", "claude", "gemini", "domestic-model", "image-workbench", "api-gateway", "api-relay"],
+      "tags": [
+        "gpt",
+        "claude",
+        "gemini",
+        "domestic-model",
+        "image-workbench",
+        "api-gateway",
+        "api-relay"
+      ],
       "summary": "New API 多模型中转。2026-09-26 公开价格 API 返回 49 个模型及 11 个分组，覆盖 GPT、Claude、Gemini、国产模型和画图；接口内的站内倍率不直接等同相对官方价格的有效倍率。官网状态 API 的 2026-09-21 公告称首充赠送 12% 及多档充值赠额，规则以站内公告为准。公开页面可访问，未注册或调用。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-26",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/7"},
-        {"type": "official-website", "url": "https://otterl.com/"},
-        {"type": "public-pricing-api", "url": "https://otterl.com/api/pricing"},
-        {"type": "site-status", "url": "https://otterl.com/api/status"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/7"
+        },
+        {
+          "type": "official-website",
+          "url": "https://otterl.com/"
+        },
+        {
+          "type": "public-pricing-api",
+          "url": "https://otterl.com/api/pricing"
+        },
+        {
+          "type": "site-status",
+          "url": "https://otterl.com/api/status"
+        }
       ]
     },
     {
@@ -107,15 +228,32 @@
       "name": "helpcoder（帮帮）",
       "homepage": "https://helpcoder.cc/",
       "registrationUrl": "https://helpcoder.cc/register",
-      "tags": ["gpt", "codex", "new-api", "api-relay"],
+      "tags": [
+        "gpt",
+        "codex",
+        "new-api",
+        "api-relay"
+      ],
       "summary": "New API GPT/Codex 中转。2026-09-26 公开价格 API 返回 14 个模型，公开状态接口显示签到功能已启用。Issue #6 于 2026-08-31 自述新用户注册额度折合约 US$200；本次未复验该额度，故仅作为历史用户报告，不视为当前优惠。注册页可访问，未登录、注册或调用。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-26",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/6"},
-        {"type": "official-registration", "url": "https://helpcoder.cc/register"},
-        {"type": "public-pricing-api", "url": "https://helpcoder.cc/api/pricing"},
-        {"type": "site-status", "url": "https://helpcoder.cc/api/status"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/6"
+        },
+        {
+          "type": "official-registration",
+          "url": "https://helpcoder.cc/register"
+        },
+        {
+          "type": "public-pricing-api",
+          "url": "https://helpcoder.cc/api/pricing"
+        },
+        {
+          "type": "site-status",
+          "url": "https://helpcoder.cc/api/status"
+        }
       ]
     },
     {
@@ -123,15 +261,33 @@
       "name": "LinkAGI",
       "homepage": "https://api.linktoagi.com/",
       "registrationUrl": "https://api.linktoagi.com/sign-up",
-      "tags": ["gpt", "codex", "claude", "gemini", "api-relay"],
+      "tags": [
+        "gpt",
+        "codex",
+        "claude",
+        "gemini",
+        "api-relay"
+      ],
       "summary": "人民币按量计费；站内分组倍率：Codex Sale 0.15x、Plus 0.2x、Pro 0.3x，Grok 0.2x、DeepSeek 0.5x。GPT-6 Astra / Plus 在长度低于 272K 档位输入 ¥2、输出 ¥10 / 百万 Token；长上下文与缓存另计，调用前以实时价格为准。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-17",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/1"},
-        {"type": "local-verified", "url": "https://api.linktoagi.com/"},
-        {"type": "local-verified", "url": "https://api.linktoagi.com/pricing"},
-        {"type": "public-pricing-api", "url": "https://api.linktoagi.com/api/pricing"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/1"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://api.linktoagi.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://api.linktoagi.com/pricing"
+        },
+        {
+          "type": "public-pricing-api",
+          "url": "https://api.linktoagi.com/api/pricing"
+        }
       ]
     },
     {
@@ -139,15 +295,31 @@
       "name": "合租巴士",
       "homepage": "https://hezu.ink/",
       "registrationUrl": "https://hezu.ink/register",
-      "tags": ["codex", "low-multiplier", "api-relay"],
+      "tags": [
+        "codex",
+        "low-multiplier",
+        "api-relay"
+      ],
       "summary": "用户补充所有分组倍率：ccmax-外接 1.6x、ccmax 1.4x、claude-russia 1x、claudecode-krio逆向 0.35x、codex-pro 0.25x、codex-补贴 0.08x、gemini特惠 0.3x、glm 0.7x、grok-特惠 0.3x；原生4k 仅标注为 x，未给出数值。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-29",
       "sources": [
-        {"type": "linux-do", "url": "https://linux.do/t/topic/2540812"},
-        {"type": "local-verified", "url": "https://hezu.ink/"},
-        {"type": "local-verified", "url": "https://hezubus.cc/p/"},
-        {"type": "user-submitted", "url": "https://hezubus.cc/p/"}
+        {
+          "type": "linux-do",
+          "url": "https://linux.do/t/topic/2540812"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://hezu.ink/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://hezubus.cc/p/"
+        },
+        {
+          "type": "user-submitted",
+          "url": "https://hezubus.cc/p/"
+        }
       ]
     },
     {
@@ -155,14 +327,27 @@
       "name": "艾可 API",
       "homepage": "https://ai.wisech.com/",
       "registrationUrl": "https://ai.wisech.com/register",
-      "tags": ["domestic-model", "discounted-pricing", "api-relay"],
+      "tags": [
+        "domestic-model",
+        "discounted-pricing",
+        "api-relay"
+      ],
       "summary": "当前模型广场可见 default、欢乐马、豆包分组均为 1x；部分模型动态计费。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "linux-do", "url": "https://linux.do/t/topic/2514782"},
-        {"type": "local-verified", "url": "https://ai.wisech.com/"},
-        {"type": "local-verified", "url": "https://ai.wisech.com/pricing"}
+        {
+          "type": "linux-do",
+          "url": "https://linux.do/t/topic/2514782"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://ai.wisech.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://ai.wisech.com/pricing"
+        }
       ]
     },
     {
@@ -170,14 +355,27 @@
       "name": "4Router",
       "homepage": "https://4router.net/",
       "registrationUrl": "https://4router.net/register",
-      "tags": ["claude", "low-multiplier", "api-relay"],
+      "tags": [
+        "claude",
+        "low-multiplier",
+        "api-relay"
+      ],
       "summary": "当前可选分组最低可见 0.45x（cheapClaude、GptPro）；GptPro-Fast/ccMax-sale 为 0.8x，gift 0.01x 当前不可选。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "linux-do", "url": "https://linux.do/t/topic/2589048"},
-        {"type": "local-verified", "url": "https://4router.net/"},
-        {"type": "local-verified", "url": "https://4router.net/pricing"}
+        {
+          "type": "linux-do",
+          "url": "https://linux.do/t/topic/2589048"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://4router.net/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://4router.net/pricing"
+        }
       ]
     },
     {
@@ -185,13 +383,27 @@
       "name": "AIZZZ",
       "homepage": "https://api.aizzz.xyz/",
       "registrationUrl": "https://api.aizzz.xyz/sign-up?aff=zAnM",
-      "tags": ["new-api", "gpt", "claude", "grok", "domestic-model", "low-multiplier", "api-gateway"],
+      "tags": [
+        "new-api",
+        "gpt",
+        "claude",
+        "grok",
+        "domestic-model",
+        "low-multiplier",
+        "api-gateway"
+      ],
       "summary": "登录后的模型广场显示 57 个模型、26 个分组：GPT 扶贫 0.01x、GPT 狂欢 0.05x、Codex 福利 0.06x、GPT Terra专属分组/GPT特价 0.09x、GPT 生图专用 0.135x、GPT luna专属分组/GPT PLUS号池 0.2x、GPT PRO号池 0.25x、GPT企业稳定组 0.35x、OpenAI 官Key 3.5x；Claude满缓存渠道 0.25x、CC长期稳定 0.55x、日区CC 0.75x、CCMAX特价 0.8x、CCMAX官转 1.3x；GROK 0.2x；国产模型 0.3x、DeepSeek 0.7x；Gemini 0.3x；abobe渠道生图 0.33x、MiniMax/可灵视频 1x、AzGPT生图 2x，其他分组倍率见模型广场。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-29",
       "sources": [
-        {"type": "user-submitted-and-local-verified", "url": "https://api.aizzz.xyz/"},
-        {"type": "local-verified", "url": "https://api.aizzz.xyz/pricing"}
+        {
+          "type": "user-submitted-and-local-verified",
+          "url": "https://api.aizzz.xyz/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://api.aizzz.xyz/pricing"
+        }
       ]
     },
     {
@@ -199,17 +411,43 @@
       "name": "onomeo",
       "homepage": "https://onomeo.com/zh",
       "registrationUrl": "https://onomeo.com/?ref=AC-9W6NGP",
-      "tags": ["public-benefit", "free-api", "api-relay", "gpt", "claude", "gemini", "deepseek"],
+      "tags": [
+        "public-benefit",
+        "free-api",
+        "api-relay",
+        "gpt",
+        "claude",
+        "gemini",
+        "deepseek"
+      ],
       "summary": "公测中的免费额度/API 服务。公开页面说明每日签到首日 50,000 额度，连续签到至第 7 天后每天 200,000（1 额度 = 1 token）；可选购买额度。Issue 报告购额价格为 $5/1,000,000，具体以付款页为准。免费模型由第三方服务商提供，模型页说明数据处理方式因模型而异；付费模型另有每日公共预算。页面列出 48 个模型，展开列表显示 49 个，数量口径有差异。每日免费额度和功能以站点公测规则为准。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-25",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/14"},
-        {"type": "official-website", "url": "https://onomeo.com/zh"},
-        {"type": "official-model-list", "url": "https://onomeo.com/zh/models"},
-        {"type": "official-credit-rules", "url": "https://onomeo.com/zh/free-credits"},
-        {"type": "official-free-model-status", "url": "https://onomeo.com/zh/free-models"},
-        {"type": "official-terms", "url": "https://onomeo.com/zh/terms"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/14"
+        },
+        {
+          "type": "official-website",
+          "url": "https://onomeo.com/zh"
+        },
+        {
+          "type": "official-model-list",
+          "url": "https://onomeo.com/zh/models"
+        },
+        {
+          "type": "official-credit-rules",
+          "url": "https://onomeo.com/zh/free-credits"
+        },
+        {
+          "type": "official-free-model-status",
+          "url": "https://onomeo.com/zh/free-models"
+        },
+        {
+          "type": "official-terms",
+          "url": "https://onomeo.com/zh/terms"
+        }
       ]
     },
     {
@@ -217,13 +455,23 @@
       "name": "Krill AI",
       "homepage": "https://www.krill-ai.com/",
       "registrationUrl": "https://www.krill-ai.com/register?invite=0FZVR9NRFB",
-      "tags": ["grok", "free-api", "api-relay"],
+      "tags": [
+        "grok",
+        "free-api",
+        "api-relay"
+      ],
       "summary": "原 .com 入口本次连接重置；已登录的 .net 会话公告显示 10 人拼团并使用 88 折码后，周卡 0.15x、月卡 0.14x；另有 77 折限时活动。",
       "status": "degraded",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "user-submitted", "url": "https://www.krill-ai.com/"},
-        {"type": "local-verified", "url": "https://www.krill-ai.net/"}
+        {
+          "type": "user-submitted",
+          "url": "https://www.krill-ai.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://www.krill-ai.net/"
+        }
       ]
     },
     {
@@ -231,14 +479,27 @@
       "name": "FastAI 模型",
       "homepage": "https://www.fastaitoken.com/",
       "registrationUrl": "https://www.fastaitoken.com/register?aff=AAYGR6B5HJA8",
-      "tags": ["grok", "low-multiplier", "api-gateway"],
+      "tags": [
+        "grok",
+        "low-multiplier",
+        "api-gateway"
+      ],
       "summary": "当前可用渠道可见：OpenAI 福利 0.06x（限时）、普通 0.2x、备用 0.25x、Pro 0.3x（限时）；Claude/国产 0.7x，视频 1x。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "user-submitted", "url": "https://www.fastaitoken.com/"},
-        {"type": "local-history-verified", "url": "https://www.fastaitoken.com/"},
-        {"type": "local-verified", "url": "https://www.fastaitoken.com/available-channels"}
+        {
+          "type": "user-submitted",
+          "url": "https://www.fastaitoken.com/"
+        },
+        {
+          "type": "local-history-verified",
+          "url": "https://www.fastaitoken.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://www.fastaitoken.com/available-channels"
+        }
       ]
     },
     {
@@ -246,14 +507,27 @@
       "name": "Horizon API",
       "homepage": "https://api.honglin.asia/",
       "registrationUrl": "https://api.honglin.asia/register?aff=FFEYRLUHUVMH",
-      "tags": ["gpt", "low-price", "api-gateway"],
+      "tags": [
+        "gpt",
+        "low-price",
+        "api-gateway"
+      ],
       "summary": "用户提供截图显示站内充值比 1:5；页面倍率为 GPT 特价 0.4x、GPT 稳定 0.85x、GPT Pro 1x、国模羊毛 0.001x、image 1x，按页面倍率除以 5 折算后分别为 0.08x、0.17x、0.2x、0.0002x、0.2x。订阅区截图显示 6 种商品，价格为 ¥5.6、¥28.1、¥31.5、¥62.5、¥157.5、¥350，具体套餐和库存以站内为准。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-29",
       "sources": [
-        {"type": "user-submitted", "url": "https://api.honglin.asia/"},
-        {"type": "local-verified", "url": "https://api.honglin.asia/profile"},
-        {"type": "user-provided-screenshot", "url": "https://api.honglin.asia/profile"}
+        {
+          "type": "user-submitted",
+          "url": "https://api.honglin.asia/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://api.honglin.asia/profile"
+        },
+        {
+          "type": "user-provided-screenshot",
+          "url": "https://api.honglin.asia/profile"
+        }
       ]
     },
     {
@@ -261,13 +535,22 @@
       "name": "Tokens Kingdom",
       "homepage": "https://tokenskingdom.com/",
       "registrationUrl": "https://tokenskingdom.com/register?aff=5FEWPVUHQVJ5",
-      "tags": ["api-gateway", "api-relay"],
+      "tags": [
+        "api-gateway",
+        "api-relay"
+      ],
       "summary": "本次访问触发 Cloudflare 拦截，倍率未确认。",
       "status": "automated-access-blocked",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "user-submitted", "url": "https://tokenskingdom.com/"},
-        {"type": "local-verified", "url": "https://tokenskingdom.com/"}
+        {
+          "type": "user-submitted",
+          "url": "https://tokenskingdom.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://tokenskingdom.com/"
+        }
       ]
     },
     {
@@ -275,13 +558,23 @@
       "name": "AIJWS",
       "homepage": "https://api.aijws.com/",
       "registrationUrl": "https://api.aijws.com/register?aff=RMW5KZQC2PWJ",
-      "tags": ["grok", "historical-offer", "api-relay"],
+      "tags": [
+        "grok",
+        "historical-offer",
+        "api-relay"
+      ],
       "summary": "当前登录后可见：限时国模 0.001x、图片 0.01x、Codex 福利 0.08x、Grok 混池 0.15x；部分分组不保证稳定或受额度影响。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "user-submitted", "url": "https://api.aijws.com/"},
-        {"type": "local-verified", "url": "https://api.aijws.com/keys"}
+        {
+          "type": "user-submitted",
+          "url": "https://api.aijws.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://api.aijws.com/keys"
+        }
       ]
     },
     {
@@ -289,13 +582,25 @@
       "name": "君の公益",
       "homepage": "https://muyuan.do/",
       "registrationUrl": "https://muyuan.do/register",
-      "tags": ["public-benefit", "claude", "codex", "new-api", "linux-do"],
+      "tags": [
+        "public-benefit",
+        "claude",
+        "codex",
+        "new-api",
+        "linux-do"
+      ],
       "summary": "本次未通过 Cloudflare 安全验证，倍率未确认；模型和客户端限制变化较快。",
       "status": "automated-access-blocked",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "linux-do", "url": "https://linux.do/t/topic/1811633"},
-        {"type": "local-history-verified", "url": "https://muyuan.do/"}
+        {
+          "type": "linux-do",
+          "url": "https://linux.do/t/topic/1811633"
+        },
+        {
+          "type": "local-history-verified",
+          "url": "https://muyuan.do/"
+        }
       ]
     },
     {
@@ -303,12 +608,18 @@
       "name": "IKunCode",
       "homepage": "https://api.ikuncode.cc/",
       "registrationUrl": "https://api.ikuncode.cc/register",
-      "tags": ["new-api", "api-relay"],
+      "tags": [
+        "new-api",
+        "api-relay"
+      ],
       "summary": "本次页面提示当前地区不可用，倍率未确认。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "local-history-verified", "url": "https://api.ikuncode.cc/"}
+        {
+          "type": "local-history-verified",
+          "url": "https://api.ikuncode.cc/"
+        }
       ]
     },
     {
@@ -316,14 +627,28 @@
       "name": "AntiCode",
       "homepage": "https://anticode.cn/",
       "registrationUrl": "https://anticode.cn/register",
-      "tags": ["new-api", "cc-switch", "cherry-studio", "api-relay"],
+      "tags": [
+        "new-api",
+        "cc-switch",
+        "cherry-studio",
+        "api-relay"
+      ],
       "summary": "当前模型广场可见 ChatGPT 0.12x（限时不稳定）/0.19x（稳定优选）、Gemini 0.6x、Claude 0.88x（限时不稳定）/1.5x（稳定优选）。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "site-status", "url": "https://anticode.cn/api/status"},
-        {"type": "local-history-verified", "url": "https://anticode.cn/"},
-        {"type": "local-verified", "url": "https://anticode.cn/pricing"}
+        {
+          "type": "site-status",
+          "url": "https://anticode.cn/api/status"
+        },
+        {
+          "type": "local-history-verified",
+          "url": "https://anticode.cn/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://anticode.cn/pricing"
+        }
       ]
     },
     {
@@ -331,14 +656,28 @@
       "name": "Huainova 公益站",
       "homepage": "https://ai.huaibao.top/",
       "registrationUrl": "https://ai.huaibao.top/register",
-      "tags": ["public-benefit", "new-api", "linux-do", "maintenance"],
+      "tags": [
+        "public-benefit",
+        "new-api",
+        "linux-do",
+        "maintenance"
+      ],
       "summary": "注册页可访问，但站点公告称渠道大多失效，等待新渠道开放。",
       "status": "degraded",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "linux-do", "url": "https://linux.do/t/topic/2208888"},
-        {"type": "site-status", "url": "https://ai.huaibao.top/api/status"},
-        {"type": "local-history-verified", "url": "https://ai.huaibao.top/"}
+        {
+          "type": "linux-do",
+          "url": "https://linux.do/t/topic/2208888"
+        },
+        {
+          "type": "site-status",
+          "url": "https://ai.huaibao.top/api/status"
+        },
+        {
+          "type": "local-history-verified",
+          "url": "https://ai.huaibao.top/"
+        }
       ]
     },
     {
@@ -346,13 +685,24 @@
       "name": "黑与白公益站",
       "homepage": "https://cdk.hybgzs.com/",
       "registrationUrl": "https://cdk.hybgzs.com/",
-      "tags": ["public-benefit", "codex", "linux-do", "manual-check"],
+      "tags": [
+        "public-benefit",
+        "codex",
+        "linux-do",
+        "manual-check"
+      ],
       "summary": "自动检查返回 403，可能需要 LINUX DO 登录或社区资格，需人工确认。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "linux-do", "url": "https://linux.do/t/topic/2051930"},
-        {"type": "local-verified", "url": "https://cdk.hybgzs.com/"}
+        {
+          "type": "linux-do",
+          "url": "https://linux.do/t/topic/2051930"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://cdk.hybgzs.com/"
+        }
       ]
     },
     {
@@ -360,13 +710,22 @@
       "name": "MoLiFang",
       "homepage": "https://molifangapi.com/",
       "registrationUrl": "https://molifangapi.com/register?aff=6FBBCBLMAV7C",
-      "tags": ["api-gateway", "api-relay"],
+      "tags": [
+        "api-gateway",
+        "api-relay"
+      ],
       "summary": "当前登录后分组可见 Plus 0.08x、稳定Pro 0.17x；系统按渠道动态选择，倍率与可用性以站内为准。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-08-27",
       "sources": [
-        {"type": "user-submitted", "url": "https://molifangapi.com/"},
-        {"type": "local-verified", "url": "https://molifangapi.com/"}
+        {
+          "type": "user-submitted",
+          "url": "https://molifangapi.com/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://molifangapi.com/"
+        }
       ]
     },
     {
@@ -374,13 +733,26 @@
       "name": "杨的中转小站",
       "homepage": "https://ai.yangwang.name/",
       "registrationUrl": "https://ai.yangwang.name/dashboard",
-      "tags": ["public-benefit", "free-image", "gpt", "grok", "low-multiplier", "api-relay"],
+      "tags": [
+        "public-benefit",
+        "free-image",
+        "gpt",
+        "grok",
+        "low-multiplier",
+        "api-relay"
+      ],
       "summary": "Issue 自述为个人自建非盈利公益站：提供免费生图、每日低倍率 GPT-5.6 全模型 Plus 号，接入 Grok 4.6；GLM-5.3/DeepSeek 国模分组低至 0.01x，注册送余额，但容量有限且稳定性不作承诺。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-29",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/4"},
-        {"type": "user-submitted", "url": "https://ai.yangwang.name/"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/4"
+        },
+        {
+          "type": "user-submitted",
+          "url": "https://ai.yangwang.name/"
+        }
       ]
     },
     {
@@ -388,12 +760,21 @@
       "name": "Token-X",
       "homepage": "https://token-x.com/",
       "registrationUrl": "https://token-x.com/sign-up?aff=H4g2",
-      "tags": ["gpt", "codex", "subscription", "low-price", "api-relay"],
+      "tags": [
+        "gpt",
+        "codex",
+        "subscription",
+        "low-price",
+        "api-relay"
+      ],
       "summary": "用户提供订阅及活动信息：CodeX-Pro 升级分组；Mini 周卡实付 ¥9.9、到账 ¥20、7 天且限购 1，用量参考约 1 亿 Token；Lite/Plus/Pro/MAX/Ultra 月卡实付 ¥30/¥60/¥169/¥299/¥599，对应到账 ¥45/¥100/¥300/¥570/¥1,200，均 30 天；基础倍率 0.045x，月卡可叠加 5—6.6 折，最低倍率 0.0225x；第二轮抽奖抽 10 份 Plus 月卡，每份内含 ¥100 额度；试运营阶段主要提供 GPT 系列模型，上游统一使用自建 Pro 20× 号池，不混用 Free 或 Plus 账号资源；当前无生效订阅时自动使用钱包。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-31",
       "sources": [
-        {"type": "user-submitted", "url": "https://token-x.com/"}
+        {
+          "type": "user-submitted",
+          "url": "https://token-x.com/"
+        }
       ]
     },
     {
@@ -401,15 +782,38 @@
       "name": "APIKEY.FUN",
       "homepage": "https://apikey.fun/",
       "registrationUrl": "https://apikey.fun/register?aff=GLVRZSHR5MKQ",
-      "tags": ["gpt", "codex", "claude", "grok", "gemini", "kimi", "deepseek", "domestic-model", "api-gateway", "low-price"],
+      "tags": [
+        "gpt",
+        "codex",
+        "claude",
+        "grok",
+        "gemini",
+        "kimi",
+        "deepseek",
+        "domestic-model",
+        "api-gateway",
+        "low-price"
+      ],
       "summary": "用户补充模型覆盖全面、线路相对稳定且 Grok 价格友好；本次公开价格接口返回 13 个活跃分组，覆盖 OpenAI、Claude、Gemini、Grok、Kimi、DeepSeek、智谱等。页面的部分“x 倍率”是站内分组倍率；Grok 企业版页面显示 1x，按 Grok 4.6/4.5 展示价格与官方价格折算约 0.14x（1.4 折、节省 86%），支持图片和视频。",
       "status": "registration-page-reachable",
       "verifiedAt": "2026-09-03",
       "sources": [
-        {"type": "user-submitted", "url": "https://apikey.fun/"},
-        {"type": "local-verified", "url": "https://apikey.fun/register"},
-        {"type": "local-verified", "url": "https://apikey.fun/pricing"},
-        {"type": "local-verified", "url": "https://apikey.fun/api/v1/pricing/groups"}
+        {
+          "type": "user-submitted",
+          "url": "https://apikey.fun/"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://apikey.fun/register"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://apikey.fun/pricing"
+        },
+        {
+          "type": "local-verified",
+          "url": "https://apikey.fun/api/v1/pricing/groups"
+        }
       ]
     },
     {
@@ -417,15 +821,99 @@
       "name": "DayWay",
       "homepage": "https://dayway.site/",
       "registrationUrl": "https://dayway.site/",
-      "tags": ["gpt", "codex", "api-relay", "low-multiplier", "invoice", "image-workbench"],
+      "tags": [
+        "gpt",
+        "codex",
+        "api-relay",
+        "low-multiplier",
+        "invoice",
+        "image-workbench"
+      ],
       "summary": "Issue 与用户提供的价格快照：代表性倍率 0.23x；代表模型 gpt-5.6-sol，输入 ¥1.15/1M、输出 ¥6.90/1M；API 接入 URL 为 https://dayway.site/v1；支持支付宝、发票和绘图工作台。数据截至 2026-08-23，实际以模型广场为准。",
       "status": "manual-verification-required",
       "verifiedAt": "2026-08-23",
       "sources": [
-        {"type": "github-issue", "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/3"},
-        {"type": "user-submitted", "url": "https://dayway.site/"},
-        {"type": "user-submitted", "url": "https://dayway.site/pricing"}
+        {
+          "type": "github-issue",
+          "url": "https://github.com/1sh1ro/ai-api-zhongzhuan/issues/3"
+        },
+        {
+          "type": "user-submitted",
+          "url": "https://dayway.site/"
+        },
+        {
+          "type": "user-submitted",
+          "url": "https://dayway.site/pricing"
+        }
       ]
+    },
+    {
+      "id": "dshapi",
+      "name": "DSH API",
+      "homepage": "https://api.dshapi.icu/",
+      "registrationUrl": "https://api.dshapi.icu/r/T8KiaeGU",
+      "tags": [
+        "api-relay",
+        "openai-compatible",
+        "anthropic-compatible",
+        "cn-models",
+        "codex",
+        "claude-code"
+      ],
+      "summary": "中转聚合站。同一个 base URL 同时支持 OpenAI（/v1/models、/v1/chat/completions、/v1/responses）与 Anthropic（/v1/messages）两套协议，Claude Code 与 Codex CLI 不改代码可接入。账号后台公示国模分组 0.08x（官网价 8%）、open ai pro 分组 0.22x。可用模型包括 deepseek-v4-flash / v4.1-flash / pro、glm-5.2 / 5.3 / 5.3-flash、kimi-k2.8 / k3、minimax-m3、hy3 / hy4。QQ 邮箱注册，支付宝 / 微信充值，余额不过期。本人账号累计 30,734 次请求 / 40.7 亿 token，实付 ¥28.67（平台标准价 ¥359.51）。注册链接含 aff 推广参数。",
+      "status": "verified-by-submitter",
+      "verifiedAt": "2026-09-30",
+      "sources": [
+        {
+          "type": "official-website",
+          "url": "https://api.dshapi.icu/"
+        },
+        {
+          "type": "live-endpoint-check",
+          "url": "https://api.dshapi.icu/v1/models"
+        }
+      ],
+      "endpoints": {
+        "openai": "https://api.dshapi.icu/v1",
+        "anthropic": "https://api.dshapi.icu"
+      },
+      "groupRates": [
+        {
+          "name": "cn-models",
+          "multiplier": 0.08,
+          "note": "国模分组，官网价的 8%"
+        },
+        {
+          "name": "open ai pro",
+          "multiplier": 0.22,
+          "note": "GPT-6 系列专用分组"
+        }
+      ],
+      "measured": {
+        "checkedAt": "2026-09-30",
+        "results": [
+          {
+            "endpoint": "GET /v1/models",
+            "status": 200,
+            "ms": 1610
+          },
+          {
+            "endpoint": "POST /v1/chat/completions",
+            "status": 200,
+            "ms": 2190
+          },
+          {
+            "endpoint": "POST /v1/responses",
+            "status": 200,
+            "ms": 2370
+          },
+          {
+            "endpoint": "POST /v1/messages",
+            "status": 200,
+            "ms": 3940
+          }
+        ]
+      }
     }
   ]
 }
