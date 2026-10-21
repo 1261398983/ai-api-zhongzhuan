@@ -848,10 +848,10 @@
       ]
     },
     {
-      "id": "dshapi",
-      "name": "DSH API",
-      "homepage": "https://api.dshapi.icu/",
-      "registrationUrl": "https://api.dshapi.icu/r/T8KiaeGU",
+      "id": "97wl",
+      "name": "97wl",
+      "homepage": "https://api.97wl.cc/",
+      "registrationUrl": "https://api.97wl.cc/r/T8KiaeGU",
       "tags": [
         "api-relay",
         "openai-compatible",
@@ -866,16 +866,16 @@
       "sources": [
         {
           "type": "official-website",
-          "url": "https://api.dshapi.icu/"
+          "url": "https://api.97wl.cc/"
         },
         {
           "type": "live-endpoint-check",
-          "url": "https://api.dshapi.icu/v1/models"
+          "url": "https://api.97wl.cc/v1/models"
         }
       ],
       "endpoints": {
-        "openai": "https://api.dshapi.icu/v1",
-        "anthropic": "https://api.dshapi.icu"
+        "openai": "https://api.97wl.cc/v1",
+        "anthropic": "https://api.97wl.cc"
       },
       "groupRates": [
         {
