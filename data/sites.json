@@ -851,7 +851,7 @@
       "id": "removed",
       "name": "removed",
       "homepage": "https://your-endpoint.example.com/",
-      "registrationUrl": "https://your-endpoint.example.com/r/T8KiaeGU",
+      "registrationUrl": "",
       "tags": [
         "api-relay",
         "openai-compatible",
