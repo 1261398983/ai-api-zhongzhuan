@@ -235,3 +235,16 @@ API Key:  在站点控制台自行创建
 | 核验状态 | 2026-09-25 可访问；未创建账号或发起付费调用。价格页标注数据更新于 2026-09-23，具体以当前页面为准 |
 
 **入口：** [注册](https://modelrush.ai/sign-up) · [模型目录](https://modelrush.ai/models) · [实时价格](https://modelrush.ai/pricing) · [API 文档](https://modelrush.ai/docs) · [Issue #8](https://github.com/1sh1ro/ai-api-zhongzhuan/issues/8)
+
+---
+
+## 相关
+
+**统一端点**：`https://api.97wl.cc/v1` —— 兼容 OpenAI 与 Anthropic 双协议，QQ 邮箱注册，按量计费。
+
+- **[配置指南](https://1261398983.github.io/ai-api-guide/)** —— Claude Code / code CLI / Cherry Studio 接入
+- **[连不上排查](https://1261398983.github.io/ai-api-guide/why-blocked.html)** —— DNS / TLS / 鉴权 / 出口四层定位
+- **[风险自查](https://1261398983.github.io/ai-api-guide/risk.html)** —— 跑路前兆 7 个信号
+- **[延迟实测](https://1261398983.github.io/ai-api-guide/uptime.html)** —— 8 家同机采样原始数据
+
+> 第三方转发服务，非上游官方产品。建议按实际用量充值，避免大额预付。
