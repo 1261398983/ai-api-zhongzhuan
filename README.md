@@ -9,11 +9,11 @@
 </p>
 
 > [!TIP]
-> **💱 中转站的中转站：BeeAPI**
+> **💱 中转站的中转站：removed**
 >
-> 聚合多家 AI API 商家，在一个平台比较价格、选择渠道并切换服务。官网介绍支持 OpenAI、Anthropic、Gemini 等模型，也可选择官方直连，并提供统一余额计费与自动故障切换。
+> 兼容 OpenAI 与 Anthropic 双协议的统一端点，同一套 Base URL 同时跑 Claude Code 与 Codex CLI。QQ 邮箱注册，无需邀请码，按量计费，倍率在控制台公开。
 >
-> [**前往 BeeAPI 注册 →**](https://beeapi.ai/signup?aff=75OPR7DQRJCG) 
+> [**前往 removed 注册 →**]()
 
 <p align="center"><sub>最后核验：2026-09-26 · 价格、免费额度与注册状态可能变化，请以站点实时信息为准</sub></p>
 
