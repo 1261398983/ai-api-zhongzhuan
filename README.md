@@ -10,7 +10,7 @@
 
 > [!TIP]
 >
-> 兼容 OpenAI 与 Anthropic 双协议的统一端点，同一套 Base URL 同时跑 Claude Code 与 Codex CLI。QQ 邮箱注册，无需邀请码，按量计费，倍率在控制台公开。
+> 兼容 OpenAI 与 Anthropic 双协议的统一端点，同一套 Base URL 同时跑 Claude Code 与 Codex CLI。邮箱注册，，按量计费，倍率在控制台公开。
 >
 
 <p align="center"><sub>最后核验：2026-09-26 · 价格、免费额度与注册状态可能变化，请以站点实时信息为准</sub></p>
